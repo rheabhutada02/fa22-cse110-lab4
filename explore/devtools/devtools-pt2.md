@@ -1,0 +1,3 @@
+# Devtools Part 2 Answers
+1. The bug was that `num1` and `num2` were undefined. As a result, they were being interpretted as strings and getting concatonated rather than added together. So for example, if the user typed 10 as `num1` and 20 as `num2`, the result becomes `1020`, which is not what we want the function to do.
+2. I casted `num1` and `num2` as Numbers, which changed the result to return the correct addition of the two values. So for example, if the user typed 10 as `num1` and 20 as `num2`, the result becomes `30`, which is what we want the function to do.
