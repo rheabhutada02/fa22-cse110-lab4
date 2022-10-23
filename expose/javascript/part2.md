@@ -1,4 +1,4 @@
-# Part 2
+# Part 2 Answers
 1. 3; The variable `i` is being printed to the console becuase it is of function scope. In the for-loop `i` increments for the length of prices. Since the length of prices list is 3, that is what gets printed at the end of the for-loop.
 2. 150; The variable `discountedPrice` is 150 because after the for-loop finishes, the discountedPrice that was last calculated is 150. The variable `i` is 3 and so `prices[3]` is 300. We multiply that by `(1 - 0.5)`, which gives us `discountedPrice` = 150.
 3. 150; The `finalPrice` is set to the rounded value of `discountedPrice` and `discountedPrice` is 150 for the last iteration of the for-loop. Therefore, `finalPrice` is 150.
